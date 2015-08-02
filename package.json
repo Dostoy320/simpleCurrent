@@ -1,0 +1,16 @@
+{
+  "name": "simplecurrent",
+  "version": "1.0.0",
+  "description": "I don't want to hear your stream, just give me the info!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam Gregory",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.2",
+    "request": "^2.60.0"
+  }
+}
