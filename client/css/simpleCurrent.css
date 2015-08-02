@@ -1,9 +1,25 @@
 body {
 	font-size: 15px;
 }
+#live-info {
+	margin: 0 auto;
+}
 .artist {
-	font-size:1.5em;
+	font-size:1.2em;
 }
 .title {
-	font-size: 1.2em;
+	font-size: 1.5em;
+}
+
+@media (max-width:1199px) {
+
+
+	#live-info {
+	    width:100%;
+	    font-size:50px;
+	}
+	.album-art {
+    	width: 600px;
+    	height: 600px;
+    }
 }

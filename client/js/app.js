@@ -22,7 +22,7 @@ function get_track_info() {
         	console.log('error',data);
         }
     });
-    setTimeout(function(){get_track_info();}, 200000);
+    setTimeout(function(){get_track_info();}, 5000);
 }
 
 get_track_info();
