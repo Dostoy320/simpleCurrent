@@ -4,7 +4,8 @@
   "description": "I don't want to hear your stream, just give me the info!",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
   },
   "author": "Adam Gregory",
   "license": "ISC",
