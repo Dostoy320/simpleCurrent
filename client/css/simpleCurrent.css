@@ -1,25 +1,27 @@
 body {
 	font-size: 15px;
+	font-weight:300;
+	font-family: 'Open Sans', sans-serif;
 }
 #live-info {
-	margin: 0 auto;
+	margin: 20px, 0, 0, 10px;
 }
 .artist {
 	font-size:1.2em;
+	font-weight: 400;
 }
 .title {
 	font-size: 1.5em;
 }
 
-@media (max-width:1199px) {
+@media (max-width:1100px) {
 
 
 	#live-info {
-	    width:100%;
 	    font-size:50px;
 	}
 	.album-art {
-    	width: 600px;
-    	height: 600px;
+    	width: 750px;
+    	height: 750px;
     }
 }
